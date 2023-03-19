@@ -1,0 +1,266 @@
+Lenovo@LAPTOP-95MJH4AN MINGW64 /d/TEL U/SEMESTER 4/PARAKTIKUM KONSTRUKSI PERANGKAT LUNAK (KPL)/TP_MOD5_1302213103/tpmodul5_1302213103
+$ git init
+Initialized empty Git repository in D:/TEL U/SEMESTER 4/PARAKTIKUM KONSTRUKSI PERANGKAT LUNAK (KPL)/TP_MOD5_1302213103/tpmodul5_1302213103/.git/
+
+Lenovo@LAPTOP-95MJH4AN MINGW64 /d/TEL U/SEMESTER 4/PARAKTIKUM KONSTRUKSI PERANGKAT LUNAK (KPL)/TP_MOD5_1302213103/tpmodul5_1302213103 (master)
+$ ls
+tpmodul5_1302213103/  tpmodul5_1302213103.sln
+
+Lenovo@LAPTOP-95MJH4AN MINGW64 /d/TEL U/SEMESTER 4/PARAKTIKUM KONSTRUKSI PERANGKAT LUNAK (KPL)/TP_MOD5_1302213103/tpmodul5_1302213103 (master)
+$ git add *
+
+Lenovo@LAPTOP-95MJH4AN MINGW64 /d/TEL U/SEMESTER 4/PARAKTIKUM KONSTRUKSI PERANGKAT LUNAK (KPL)/TP_MOD5_1302213103/tpmodul5_1302213103 (master)
+$ git commit -m "commit pertama"
+[master (root-commit) d37ec44] commit pertama
+ 15 files changed, 240 insertions(+)
+ create mode 100644 tpmodul5_1302213103.sln
+ create mode 100644 tpmodul5_1302213103/Program.cs
+ create mode 100644 tpmodul5_1302213103/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+ create mode 100644 tpmodul5_1302213103/obj/Debug/net6.0/tpmodul5_1302213103.AssemblyInfo.cs
+ create mode 100644 tpmodul5_1302213103/obj/Debug/net6.0/tpmodul5_1302213103.AssemblyInfoInputs.cache
+ create mode 100644 tpmodul5_1302213103/obj/Debug/net6.0/tpmodul5_1302213103.GeneratedMSBuildEditorConfig.editorconfig
+ create mode 100644 tpmodul5_1302213103/obj/Debug/net6.0/tpmodul5_1302213103.GlobalUsings.g.cs
+ create mode 100644 tpmodul5_1302213103/obj/Debug/net6.0/tpmodul5_1302213103.assets.cache
+ create mode 100644 tpmodul5_1302213103/obj/Debug/net6.0/tpmodul5_1302213103.csproj.AssemblyReference.cache
+ create mode 100644 tpmodul5_1302213103/obj/project.assets.json
+ create mode 100644 tpmodul5_1302213103/obj/project.nuget.cache
+ create mode 100644 tpmodul5_1302213103/obj/tpmodul5_1302213103.csproj.nuget.dgspec.json
+ create mode 100644 tpmodul5_1302213103/obj/tpmodul5_1302213103.csproj.nuget.g.props
+ create mode 100644 tpmodul5_1302213103/obj/tpmodul5_1302213103.csproj.nuget.g.targets
+ create mode 100644 tpmodul5_1302213103/tpmodul5_1302213103.csproj
+
+Lenovo@LAPTOP-95MJH4AN MINGW64 /d/TEL U/SEMESTER 4/PARAKTIKUM KONSTRUKSI PERANGKAT LUNAK (KPL)/TP_MOD5_1302213103/tpmodul5_1302213103 (master)
+$ git remote add origin https://github.com/RIPO12345/tpmodul5_1302213103.git
+
+Lenovo@LAPTOP-95MJH4AN MINGW64 /d/TEL U/SEMESTER 4/PARAKTIKUM KONSTRUKSI PERANGKAT LUNAK (KPL)/TP_MOD5_1302213103/tpmodul5_1302213103 (master)
+$ git push -u origin master
+Enumerating objects: 21, done.
+Counting objects: 100% (21/21), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (19/19), done.
+Writing objects: 100% (21/21), 10.45 KiB | 1.16 MiB/s, done.
+Total 21 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/RIPO12345/tpmodul5_1302213103.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+Lenovo@LAPTOP-95MJH4AN MINGW64 /d/TEL U/SEMESTER 4/PARAKTIKUM KONSTRUKSI PERANGKAT LUNAK (KPL)/TP_MOD5_1302213103/tpmodul5_1302213103 (master)
+$ git branch generic-method
+
+Lenovo@LAPTOP-95MJH4AN MINGW64 /d/TEL U/SEMESTER 4/PARAKTIKUM KONSTRUKSI PERANGKAT LUNAK (KPL)/TP_MOD5_1302213103/tpmodul5_1302213103 (master)
+$ git checkout generic-method
+Switched to branch 'generic-method'
+
+Lenovo@LAPTOP-95MJH4AN MINGW64 /d/TEL U/SEMESTER 4/PARAKTIKUM KONSTRUKSI PERANGKAT LUNAK (KPL)/TP_MOD5_1302213103/tpmodul5_1302213103 (generic-method)
+$ git add .
+
+Lenovo@LAPTOP-95MJH4AN MINGW64 /d/TEL U/SEMESTER 4/PARAKTIKUM KONSTRUKSI PERANGKAT LUNAK (KPL)/TP_MOD5_1302213103/tpmodul5_1302213103 (generic-method)
+$ git commit -m "menambahkan class HaloGeneric dengan method SapaUser"
+[generic-method 44045b7] menambahkan class HaloGeneric dengan method SapaUser
+ 19 files changed, 68 insertions(+), 2 deletions(-)
+ create mode 100644 .vs/tpmodul5_1302213103/FileContentIndex/f9977427-9a83-4887-a464-991245e727f0.vsidx
+ create mode 100644 .vs/tpmodul5_1302213103/FileContentIndex/fc3061e8-268c-4a49-bbb6-8bd397f7e126.vsidx
+ create mode 100644 .vs/tpmodul5_1302213103/FileContentIndex/read.lock
+ create mode 100644 .vs/tpmodul5_1302213103/v17/.suo
+ create mode 100644 tpmodul5_1302213103/bin/Debug/net6.0/tpmodul5_1302213103.deps.json
+ create mode 100644 tpmodul5_1302213103/bin/Debug/net6.0/tpmodul5_1302213103.dll
+ create mode 100644 tpmodul5_1302213103/bin/Debug/net6.0/tpmodul5_1302213103.exe
+ create mode 100644 tpmodul5_1302213103/bin/Debug/net6.0/tpmodul5_1302213103.pdb
+ create mode 100644 tpmodul5_1302213103/bin/Debug/net6.0/tpmodul5_1302213103.runtimeconfig.json
+ create mode 100644 tpmodul5_1302213103/obj/Debug/net6.0/apphost.exe
+ create mode 100644 tpmodul5_1302213103/obj/Debug/net6.0/ref/tpmodul5_1302213103.dll
+ create mode 100644 tpmodul5_1302213103/obj/Debug/net6.0/refint/tpmodul5_1302213103.dll
+ create mode 100644 tpmodul5_1302213103/obj/Debug/net6.0/tpmodul5_1302213103.csproj.BuildWithSkipAnalyzers
+ create mode 100644 tpmodul5_1302213103/obj/Debug/net6.0/tpmodul5_1302213103.csproj.CoreCompileInputs.cache
+ create mode 100644 tpmodul5_1302213103/obj/Debug/net6.0/tpmodul5_1302213103.csproj.FileListAbsolute.txt
+ create mode 100644 tpmodul5_1302213103/obj/Debug/net6.0/tpmodul5_1302213103.dll
+ create mode 100644 tpmodul5_1302213103/obj/Debug/net6.0/tpmodul5_1302213103.genruntimeconfig.cache
+ create mode 100644 tpmodul5_1302213103/obj/Debug/net6.0/tpmodul5_1302213103.pdb
+
+Lenovo@LAPTOP-95MJH4AN MINGW64 /d/TEL U/SEMESTER 4/PARAKTIKUM KONSTRUKSI PERANGKAT LUNAK (KPL)/TP_MOD5_1302213103/tpmodul5_1302213103 (generic-method)
+$ git push origin generic-method
+Enumerating objects: 33, done.
+Counting objects: 100% (33/33), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (20/20), done.
+Writing objects: 100% (28/28), 82.43 KiB | 2.94 MiB/s, done.
+Total 28 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+remote:
+remote: Create a pull request for 'generic-method' on GitHub by visiting:
+remote:      https://github.com/RIPO12345/tpmodul5_1302213103/pull/new/generic-method
+remote:
+To https://github.com/RIPO12345/tpmodul5_1302213103.git
+ * [new branch]      generic-method -> generic-method
+
+Lenovo@LAPTOP-95MJH4AN MINGW64 /d/TEL U/SEMESTER 4/PARAKTIKUM KONSTRUKSI PERANGKAT LUNAK (KPL)/TP_MOD5_1302213103/tpmodul5_1302213103 (generic-method)
+$ git checkout master
+Unlink of file '.vs/tpmodul5_1302213103/FileContentIndex/f9977427-9a83-4887-a464-991245e727f0.vsidx' failed. Should I try again? (y/n) n
+warning: unable to unlink '.vs/tpmodul5_1302213103/FileContentIndex/f9977427-9a83-4887-a464-991245e727f0.vsidx': Invalid argument
+Unlink of file '.vs/tpmodul5_1302213103/FileContentIndex/fc3061e8-268c-4a49-bbb6-8bd397f7e126.vsidx' failed. Should I try again? (y/n) y
+Unlink of file '.vs/tpmodul5_1302213103/FileContentIndex/fc3061e8-268c-4a49-bbb6-8bd397f7e126.vsidx' failed. Should I try again? (y/n)
+Sorry, I did not understand your answer. Please type 'y' or 'n'
+Unlink of file '.vs/tpmodul5_1302213103/FileContentIndex/fc3061e8-268c-4a49-bbb6-8bd397f7e126.vsidx' failed. Should I try again? (y/n) n
+warning: unable to unlink '.vs/tpmodul5_1302213103/FileContentIndex/fc3061e8-268c-4a49-bbb6-8bd397f7e126.vsidx': Invalid argument
+Unlink of file '.vs/tpmodul5_1302213103/FileContentIndex/read.lock' failed. Should I try again? (y/n) clear
+Sorry, I did not understand your answer. Please type 'y' or 'n'
+Unlink of file '.vs/tpmodul5_1302213103/FileContentIndex/read.lock' failed. Should I try again? (y/n) n
+warning: unable to unlink '.vs/tpmodul5_1302213103/FileContentIndex/read.lock': Invalid argument
+Updating files: 100% (19/19), done.
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+Lenovo@LAPTOP-95MJH4AN MINGW64 /d/TEL U/SEMESTER 4/PARAKTIKUM KONSTRUKSI PERANGKAT LUNAK (KPL)/TP_MOD5_1302213103/tpmodul5_1302213103 (master)
+$ git checkout -b generic-class
+Switched to a new branch 'generic-class'
+
+Lenovo@LAPTOP-95MJH4AN MINGW64 /d/TEL U/SEMESTER 4/PARAKTIKUM KONSTRUKSI PERANGKAT LUNAK (KPL)/TP_MOD5_1302213103/tpmodul5_1302213103 (generic-class)
+$ git checkout generic-class
+Already on 'generic-class'
+
+Lenovo@LAPTOP-95MJH4AN MINGW64 /d/TEL U/SEMESTER 4/PARAKTIKUM KONSTRUKSI PERANGKAT LUNAK (KPL)/TP_MOD5_1302213103/tpmodul5_1302213103 (generic-class)
+$ git add .
+
+Lenovo@LAPTOP-95MJH4AN MINGW64 /d/TEL U/SEMESTER 4/PARAKTIKUM KONSTRUKSI PERANGKAT LUNAK (KPL)/TP_MOD5_1302213103/tpmodul5_1302213103 (generic-class)
+$ git commit -m "menambahkan class DataGeneric"
+[generic-class c15483c] menambahkan class DataGeneric
+ 19 files changed, 86 insertions(+), 2 deletions(-)
+ create mode 100644 .vs/tpmodul5_1302213103/FileContentIndex/8eff8701-e0a9-4a2c-a4c4-1e6c4bba5949.vsidx
+ create mode 100644 .vs/tpmodul5_1302213103/FileContentIndex/f9977427-9a83-4887-a464-991245e727f0.vsidx
+ create mode 100644 .vs/tpmodul5_1302213103/FileContentIndex/read.lock
+ create mode 100644 .vs/tpmodul5_1302213103/v17/.suo
+ create mode 100644 tpmodul5_1302213103/bin/Debug/net6.0/tpmodul5_1302213103.deps.json
+ create mode 100644 tpmodul5_1302213103/bin/Debug/net6.0/tpmodul5_1302213103.dll
+ create mode 100644 tpmodul5_1302213103/bin/Debug/net6.0/tpmodul5_1302213103.exe
+ create mode 100644 tpmodul5_1302213103/bin/Debug/net6.0/tpmodul5_1302213103.pdb
+ create mode 100644 tpmodul5_1302213103/bin/Debug/net6.0/tpmodul5_1302213103.runtimeconfig.json
+ create mode 100644 tpmodul5_1302213103/obj/Debug/net6.0/apphost.exe
+ create mode 100644 tpmodul5_1302213103/obj/Debug/net6.0/ref/tpmodul5_1302213103.dll
+ create mode 100644 tpmodul5_1302213103/obj/Debug/net6.0/refint/tpmodul5_1302213103.dll
+ create mode 100644 tpmodul5_1302213103/obj/Debug/net6.0/tpmodul5_1302213103.csproj.BuildWithSkipAnalyzers
+ create mode 100644 tpmodul5_1302213103/obj/Debug/net6.0/tpmodul5_1302213103.csproj.CoreCompileInputs.cache
+ create mode 100644 tpmodul5_1302213103/obj/Debug/net6.0/tpmodul5_1302213103.csproj.FileListAbsolute.txt
+ create mode 100644 tpmodul5_1302213103/obj/Debug/net6.0/tpmodul5_1302213103.dll
+ create mode 100644 tpmodul5_1302213103/obj/Debug/net6.0/tpmodul5_1302213103.genruntimeconfig.cache
+ create mode 100644 tpmodul5_1302213103/obj/Debug/net6.0/tpmodul5_1302213103.pdb
+
+Lenovo@LAPTOP-95MJH4AN MINGW64 /d/TEL U/SEMESTER 4/PARAKTIKUM KONSTRUKSI PERANGKAT LUNAK (KPL)/TP_MOD5_1302213103/tpmodul5_1302213103 (generic-class)
+$ git push origin generic-class
+Enumerating objects: 33, done.
+Counting objects: 100% (33/33), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (20/20), done.
+Writing objects: 100% (28/28), 82.93 KiB | 3.19 MiB/s, done.
+Total 28 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+remote:
+remote: Create a pull request for 'generic-class' on GitHub by visiting:
+remote:      https://github.com/RIPO12345/tpmodul5_1302213103/pull/new/generic-class
+remote:
+To https://github.com/RIPO12345/tpmodul5_1302213103.git
+ * [new branch]      generic-class -> generic-class
+
+Lenovo@LAPTOP-95MJH4AN MINGW64 /d/TEL U/SEMESTER 4/PARAKTIKUM KONSTRUKSI PERANGKAT LUNAK (KPL)/TP_MOD5_1302213103/tpmodul5_1302213103 (generic-class)
+$ git checkout master
+Unlink of file '.vs/tpmodul5_1302213103/FileContentIndex/8eff8701-e0a9-4a2c-a4c4-1e6c4bba5949.vsidx' failed. Should I try again? (y/n) y
+Unlink of file '.vs/tpmodul5_1302213103/FileContentIndex/8eff8701-e0a9-4a2c-a4c4-1e6c4bba5949.vsidx' failed. Should I try again? (y/n) y
+Unlink of file '.vs/tpmodul5_1302213103/FileContentIndex/8eff8701-e0a9-4a2c-a4c4-1e6c4bba5949.vsidx' failed. Should I try again? (y/n) y
+Unlink of file '.vs/tpmodul5_1302213103/FileContentIndex/8eff8701-e0a9-4a2c-a4c4-1e6c4bba5949.vsidx' failed. Should I try again? (y/n) y
+Unlink of file '.vs/tpmodul5_1302213103/FileContentIndex/8eff8701-e0a9-4a2c-a4c4-1e6c4bba5949.vsidx' failed. Should I try again? (y/n) y
+Unlink of file '.vs/tpmodul5_1302213103/FileContentIndex/8eff8701-e0a9-4a2c-a4c4-1e6c4bba5949.vsidx' failed. Should I try again? (y/n) y
+Unlink of file '.vs/tpmodul5_1302213103/FileContentIndex/8eff8701-e0a9-4a2c-a4c4-1e6c4bba5949.vsidx' failed. Should I try again? (y/n) y
+Unlink of file '.vs/tpmodul5_1302213103/FileContentIndex/8eff8701-e0a9-4a2c-a4c4-1e6c4bba5949.vsidx' failed. Should I try again? (y/n) y
+Unlink of file '.vs/tpmodul5_1302213103/FileContentIndex/8eff8701-e0a9-4a2c-a4c4-1e6c4bba5949.vsidx' failed. Should I try again? (y/n) y
+Unlink of file '.vs/tpmodul5_1302213103/FileContentIndex/8eff8701-e0a9-4a2c-a4c4-1e6c4bba5949.vsidx' failed. Should I try again? (y/n) n
+warning: unable to unlink '.vs/tpmodul5_1302213103/FileContentIndex/8eff8701-e0a9-4a2c-a4c4-1e6c4bba5949.vsidx': Invalid argument
+Unlink of file '.vs/tpmodul5_1302213103/FileContentIndex/f9977427-9a83-4887-a464-991245e727f0.vsidx' failed. Should I try again? (y/n) n
+warning: unable to unlink '.vs/tpmodul5_1302213103/FileContentIndex/f9977427-9a83-4887-a464-991245e727f0.vsidx': Invalid argument
+Unlink of file '.vs/tpmodul5_1302213103/FileContentIndex/read.lock' failed. Should I try again? (y/n) n
+warning: unable to unlink '.vs/tpmodul5_1302213103/FileContentIndex/read.lock': Invalid argument
+Updating files: 100% (19/19), done.
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+Lenovo@LAPTOP-95MJH4AN MINGW64 /d/TEL U/SEMESTER 4/PARAKTIKUM KONSTRUKSI PERANGKAT LUNAK (KPL)/TP_MOD5_1302213103/tpmodul5_1302213103 (master)
+$ git checkout master
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+
+Lenovo@LAPTOP-95MJH4AN MINGW64 /d/TEL U/SEMESTER 4/PARAKTIKUM KONSTRUKSI PERANGKAT LUNAK (KPL)/TP_MOD5_1302213103/tpmodul5_1302213103 (master)
+$ git merge generic-method
+error: The following untracked working tree files would be overwritten by merge:
+        .vs/tpmodul5_1302213103/FileContentIndex/f9977427-9a83-4887-a464-991245e727f0.vsidx
+        .vs/tpmodul5_1302213103/FileContentIndex/read.lock
+Please move or remove them before you merge.
+Aborting
+Updating d37ec44..44045b7
+
+Lenovo@LAPTOP-95MJH4AN MINGW64 /d/TEL U/SEMESTER 4/PARAKTIKUM KONSTRUKSI PERANGKAT LUNAK (KPL)/TP_MOD5_1302213103/tpmodul5_1302213103 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .vs/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Lenovo@LAPTOP-95MJH4AN MINGW64 /d/TEL U/SEMESTER 4/PARAKTIKUM KONSTRUKSI PERANGKAT LUNAK (KPL)/TP_MOD5_1302213103/tpmodul5_1302213103 (master)
+$ git add .vs/
+
+Lenovo@LAPTOP-95MJH4AN MINGW64 /d/TEL U/SEMESTER 4/PARAKTIKUM KONSTRUKSI PERANGKAT LUNAK (KPL)/TP_MOD5_1302213103/tpmodul5_1302213103 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   .vs/tpmodul5_1302213103/FileContentIndex/ae210457-5823-4cfd-bbf8-7a0728429e19.vsidx
+        new file:   .vs/tpmodul5_1302213103/FileContentIndex/f9977427-9a83-4887-a464-991245e727f0.vsidx
+        new file:   .vs/tpmodul5_1302213103/FileContentIndex/read.lock
+
+
+Lenovo@LAPTOP-95MJH4AN MINGW64 /d/TEL U/SEMESTER 4/PARAKTIKUM KONSTRUKSI PERANGKAT LUNAK (KPL)/TP_MOD5_1302213103/tpmodul5_1302213103 (master)
+$ git merge generic-method
+Updating d37ec44..44045b7
+Fast-forward
+ .../f9977427-9a83-4887-a464-991245e727f0.vsidx     | Bin 0 -> 1546 bytes
+ .../fc3061e8-268c-4a49-bbb6-8bd397f7e126.vsidx     | Bin 0 -> 4526 bytes
+ .vs/tpmodul5_1302213103/FileContentIndex/read.lock |   0
+ .vs/tpmodul5_1302213103/v17/.suo                   | Bin 0 -> 25088 bytes
+ tpmodul5_1302213103/Program.cs                     |  21 +++++++++++++++++--
+ .../bin/Debug/net6.0/tpmodul5_1302213103.deps.json |  23 +++++++++++++++++++++
+ .../bin/Debug/net6.0/tpmodul5_1302213103.dll       | Bin 0 -> 5632 bytes
+ .../bin/Debug/net6.0/tpmodul5_1302213103.exe       | Bin 0 -> 147968 bytes
+ .../bin/Debug/net6.0/tpmodul5_1302213103.pdb       | Bin 0 -> 10472 bytes
+ .../net6.0/tpmodul5_1302213103.runtimeconfig.json  |   9 ++++++++
+ tpmodul5_1302213103/obj/Debug/net6.0/apphost.exe   | Bin 0 -> 147968 bytes
+ .../obj/Debug/net6.0/ref/tpmodul5_1302213103.dll   | Bin 0 -> 5632 bytes
+ .../Debug/net6.0/refint/tpmodul5_1302213103.dll    | Bin 0 -> 5632 bytes
+ ...modul5_1302213103.csproj.BuildWithSkipAnalyzers |   0
+ ...odul5_1302213103.csproj.CoreCompileInputs.cache |   1 +
+ ...tpmodul5_1302213103.csproj.FileListAbsolute.txt |  15 ++++++++++++++
+ .../obj/Debug/net6.0/tpmodul5_1302213103.dll       | Bin 0 -> 5632 bytes
+ .../tpmodul5_1302213103.genruntimeconfig.cache     |   1 +
+ .../obj/Debug/net6.0/tpmodul5_1302213103.pdb       | Bin 0 -> 10472 bytes
+ 19 files changed, 68 insertions(+), 2 deletions(-)
+ create mode 100644 .vs/tpmodul5_1302213103/FileContentIndex/f9977427-9a83-4887-a464-991245e727f0.vsidx
+ create mode 100644 .vs/tpmodul5_1302213103/FileContentIndex/fc3061e8-268c-4a49-bbb6-8bd397f7e126.vsidx
+ create mode 100644 .vs/tpmodul5_1302213103/FileContentIndex/read.lock
+ create mode 100644 .vs/tpmodul5_1302213103/v17/.suo
+ create mode 100644 tpmodul5_1302213103/bin/Debug/net6.0/tpmodul5_1302213103.deps.json
+ create mode 100644 tpmodul5_1302213103/bin/Debug/net6.0/tpmodul5_1302213103.dll
+ create mode 100644 tpmodul5_1302213103/bin/Debug/net6.0/tpmodul5_1302213103.exe
+ create mode 100644 tpmodul5_1302213103/bin/Debug/net6.0/tpmodul5_1302213103.pdb
+ create mode 100644 tpmodul5_1302213103/bin/Debug/net6.0/tpmodul5_1302213103.runtimeconfig.json
+ create mode 100644 tpmodul5_1302213103/obj/Debug/net6.0/apphost.exe
+ create mode 100644 tpmodul5_1302213103/obj/Debug/net6.0/ref/tpmodul5_1302213103.dll
+ create mode 100644 tpmodul5_1302213103/obj/Debug/net6.0/refint/tpmodul5_1302213103.dll
+ create mode 100644 tpmodul5_1302213103/obj/Debug/net6.0/tpmodul5_1302213103.csproj.BuildWithSkipAnalyzers
+ create mode 100644 tpmodul5_1302213103/obj/Debug/net6.0/tpmodul5_1302213103.csproj.CoreCompileInputs.cache
+ create mode 100644 tpmodul5_1302213103/obj/Debug/net6.0/tpmodul5_1302213103.csproj.FileListAbsolute.txt
+ create mode 100644 tpmodul5_1302213103/obj/Debug/net6.0/tpmodul5_1302213103.dll
+ create mode 100644 tpmodul5_1302213103/obj/Debug/net6.0/tpmodul5_1302213103.genruntimeconfig.cache
+ create mode 100644 tpmodul5_1302213103/obj/Debug/net6.0/tpmodul5_1302213103.pdb
